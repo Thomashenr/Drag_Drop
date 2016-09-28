@@ -21,7 +21,7 @@ angular.module("demo", ["ngRoute", "dndLists"])
                 templateUrl: 'multi/multi-frame.html',
                 controller: 'MultiDemoController'
             })
-            .otherwise({redirectTo: '/nested'});
+            .otherwise({redirectTo: '/simple'});
     })
 
     .directive('navigation', function($rootScope, $location) {
