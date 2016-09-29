@@ -1,6 +1,6 @@
 
 <div class="simpleDemo row" style="padding:10px;height:inherit">
-    <div ng-repeat="(listName, list) in models.lists" class="col-sm-2" style="padding:0px;min-height:inherit;height:inherit">
+    <div ng-repeat="(listName, list) in models.lists" class="col-sm-2" style="padding:2px;height:inherit">
         <div class="panel panel-info" style="height:inherit">
             <div class="panel-heading">
                 <h3 class="panel-title">{{listName}}</h3>
@@ -22,4 +22,16 @@
             </div>
         </div>
     </div>
+    <!--
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Generated Model</h3>
+            </div>
+            <div class="panel-body">
+                <pre class="code">{{modelAsJson}}</pre>
+            </div>
+        </div>
+    </div>
+    -->
 </div>
