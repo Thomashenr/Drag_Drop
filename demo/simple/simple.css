@@ -5,6 +5,7 @@
 .simpleDemo ul[dnd-list],
 .simpleDemo ul[dnd-list] > li {
 	position: relative;
+    
 }
 
 /**
